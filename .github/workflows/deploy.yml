@@ -19,7 +19,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:  
             - name: Get code from repository
-              uses: ubuntu-latest
+              uses: actions/checkout@v3
             - name: Install NodeJS
               uses: actions/setup-node@v3
               with:
